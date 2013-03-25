@@ -4,7 +4,7 @@ AKFusionTables
 Google Fusion Table library on iOS to support the api version 1.0
 
 
-I took the old libray from Pavel Aksonov. Improved it to support the new version api of google fusion.
+I took the old libray from Pavel Aksonov. Improved it to support the new version api of google fusion because the old google fusion table is deprecated.
 
 Just download the source code, include them into your project and you are good to go
 
@@ -29,3 +29,8 @@ NSString *sql = [NSString stringWithFormat:@"INSERT INTO %@ (Text,Number,Date) V
 }];
 [fusionTables release];
 </code></pre>
+
+* https://developers.google.com/fusiontables/docs/v1/getting_started
+* https://developers.google.com/fusiontables/docs/v1/using
+* https://developers.google.com/fusiontables/docs/v1/migration_guide
+* To get the API-Key: https://developers.google.com/fusiontables/docs/v1/using#APIKey
